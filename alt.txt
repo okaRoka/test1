@@ -1,0 +1,12 @@
+インストール
+１/Node.js
+
+npm
+yarn
+
+webpack
+prettier
+React
+Redux
+
+2/Visual Studio
