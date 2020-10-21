@@ -1,12 +1,10 @@
 インストール
 １/Node.js
+node-v12.19.0-x64.msi
 
-npm
-yarn
+yarn → npm install -g yarn
 
-webpack
-prettier
-React
-Redux
+React → yarn global add create-react-app
+Redux → yarn add redux react-redux
 
-2/Visual Studio
+2/Visual Studio 2019
