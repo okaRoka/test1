@@ -8,3 +8,5 @@ React → yarn global add create-react-app
 Redux → yarn add redux react-redux
 
 2/Visual Studio Code
+
+https://btj0.com/blog/react/github-pages/
