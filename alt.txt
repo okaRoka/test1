@@ -3,29 +3,31 @@
 node-v12.19.0-x64.msi
 
 yarn → npm install -g yarn
-
 React → yarn global add create-react-app
-Redux → yarn add redux react-redux
 
 2/Visual Studio Code
 
 ・プロジェクト作成
-npx create-react-app [プロジェクト名]
+create-react-app [プロジェクト名] //通らないときはPATHを通す
 cd [プロジェクト名]
+yarn eject
+Redux → yarn add redux react-redux
   ・package.jsonの追加・変更
-  "homepage": "https://okaroka.github.io/test3/",
-  "build": "react-scripts build && move /y build docs",
-  ・src/index.jsの変更
-  serviceWorker.register();
+  "homepage": "https://okaroka.github.io/test2/",
+  ・PWA
+  serviceWorker.register.jsの実装
 
 ・git page利用
 1/yarn buid
 
 2/初回のみ
-git init
-git remote add origin [リポジトリurl]
+//git init
+git remote add origin [リポジトリurl] //https://github.com/okaRoka/test2.git
+git config --global user.email "メールアドレス"
+git config --global user.name "ユーザー名"
 
 3/アップロード
+buildフォルダをdocsに名前変更する。
 git add .
 git commit -m "first"
 git push origin master
