@@ -25,9 +25,9 @@ Material-UI → yarn add @material-ui/core
 
 2/初回のみ
 //git init
-git remote add origin [リポジトリurl] //https://github.com/okaRoka/test2.git
-git config --global user.email "メールアドレス"
-git config --global user.name "ユーザー名"
+git remote add origin https://github.com/okaRoka/test3.git
+git config --global user.email "ocs.okamoto.ryuki@gmail.com"
+git config --global user.name "okaRoka"
 
 3/アップロード
 buildフォルダをdocsに名前変更する。
