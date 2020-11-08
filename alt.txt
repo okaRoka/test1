@@ -4,6 +4,7 @@ node-v12.19.0-x64.msi
 
 yarn → npm install -g yarn
 React → yarn global add create-react-app
+firebase → yarn global add firebase-tools
 
 2/Visual Studio Code
 
@@ -16,6 +17,9 @@ Redux toolkit → yarn add @reduxjs/toolkit
 Redex logger → yarn add redux-logger
 
 prop-types → yarn add prop-types
+
+firebase → yarn add firebase
+            yarn add react-redux-firebase
 Material-UI → yarn add @material-ui/core
   ・package.jsonの追加・変更
   "homepage": "https://okaroka.github.io/test2/",
