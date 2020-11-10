@@ -2,18 +2,19 @@
 １/Node.js
 node-v12.19.0-x64.msi
 
+2/Visual Studio Code
+
+・cmdインストール
 yarn → npm install -g yarn
+
+React → yarn global add create-react-app
+firebase → yarn global add firebase-tools
 ・PATHを通す
-1/yarn global binコマンドを打ち「C:~」をコピー
+1/「yarn global bin」コマンドを打ち「C:~」をコピー
 2/Winキー、環境変数、Enter
 3/Pathを選択、編集
 4/新規、ペースト、OK
 5/パソコン再起動
-
-React → yarn global add create-react-app
-firebase → yarn global add firebase-tools
-
-2/Visual Studio Code
 
 ・プロジェクト作成
 create-react-app [プロジェクト名] //通らないときはPATHを通す
@@ -35,6 +36,10 @@ Material-UI → yarn add @material-ui/core
   
 ・Firebaseはじめ
 1/firebase login
+
+2/cd [プロジェクト名]
+firebase init
+            ・DatabaseとHostingを通す、HostingSetupでbuild,y,あとはALL Enter
 
 ・git page利用
 1/yarn buid
