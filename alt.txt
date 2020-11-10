@@ -27,7 +27,7 @@ Redex logger → yarn add redux-logger
 prop-types → yarn add prop-types
 
 firebase → yarn add firebase
-            yarn add react-redux-firebase
+            yarn add react-redux-firebase@2.2.4
 Material-UI → yarn add @material-ui/core
   ・package.jsonの追加・変更
   "homepage": "https://okaroka.github.io/test2/",
@@ -40,6 +40,9 @@ Material-UI → yarn add @material-ui/core
 2/cd [プロジェクト名]
 firebase init
             ・DatabaseとHostingを通す、HostingSetupでbuild,y,あとはALL Enter
+            
+3/サイトを見ろ
+http://yucatio.hatenablog.com/entry/2018/09/23/222857
 
 ・git page利用
 1/yarn buid
