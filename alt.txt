@@ -3,6 +3,13 @@
 node-v12.19.0-x64.msi
 
 yarn → npm install -g yarn
+・PATHを通す
+1/yarn global binコマンドを打ち「C:~」をコピー
+2/Winキー、環境変数、Enter
+3/Pathを選択、編集
+4/新規、ペースト、OK
+5/パソコン再起動
+
 React → yarn global add create-react-app
 firebase → yarn global add firebase-tools
 
@@ -25,6 +32,9 @@ Material-UI → yarn add @material-ui/core
   "homepage": "https://okaroka.github.io/test2/",
   ・PWA
   serviceWorker.register.jsの実装
+  
+・Firebaseはじめ
+1/firebase login
 
 ・git page利用
 1/yarn buid
