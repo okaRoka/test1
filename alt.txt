@@ -50,7 +50,7 @@ http://yucatio.hatenablog.com/entry/2018/09/23/222857
 
 2/初回のみ
 //git init
-git remote add origin https://github.com/okaRoka/test3.git
+git remote add origin https://github.com/okaRoka/test2.git
 git config --global user.email "ocs.okamoto.ryuki@gmail.com"
 git config --global user.name "okaRoka"
 
