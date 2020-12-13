@@ -19,7 +19,7 @@ firebase → yarn global add firebase-tools
 ・プロジェクト作成
 create-react-app [プロジェクト名] --template cra-template-pwa //通らないときはPATHを通す
 cd [プロジェクト名]
-yarn eject
+//yarn eject
 Redux → yarn add redux react-redux
 Redux toolkit → yarn add @reduxjs/toolkit
 Redex logger → yarn add redux-logger
@@ -28,6 +28,7 @@ prop-types → yarn add prop-types
 
 firebase → yarn add firebase
 Material-UI → yarn add @material-ui/core
+              yarn add @material-ui/icons
   ・package.jsonの追加・変更
   "homepage": "https://okaroka.github.io/test2/",
   ・PWA
@@ -38,7 +39,7 @@ Material-UI → yarn add @material-ui/core
 
 2/cd [プロジェクト名]
 firebase init
-            ・DatabaseとHostingを通す、HostingSetupでbuild,y,あとはALL Enter
+            ・DatabaseとHostingとStorageを通す、HostingSetupでbuild,y,あとはALL Enter
 
 3/database.rules.jsonの中身をtrueにする
            
