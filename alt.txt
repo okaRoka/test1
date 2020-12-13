@@ -20,6 +20,7 @@ firebase → yarn global add firebase-tools
 create-react-app [プロジェクト名] --template cra-template-pwa //通らないときはPATHを通す
 cd [プロジェクト名]
 //yarn eject
+React routing → yarn add react-router react-router-dom
 Redux → yarn add redux react-redux
 Redux toolkit → yarn add @reduxjs/toolkit
 Redex logger → yarn add redux-logger
