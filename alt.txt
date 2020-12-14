@@ -41,9 +41,11 @@ Material-UI → yarn add @material-ui/core
 2/cd [プロジェクト名]
 firebase init
             ・DatabaseとHostingとStorageを通す、HostingSetupでbuild,y,あとはALL Enter
+            ・Functionsも通す、npmのみNo
 
 3/database.rules.jsonの中身をtrueにする
-           
+storage.rulesの中身をallow read, write;とする
+
 3/サイトを見ろ
 http://yucatio.hatenablog.com/entry/2018/09/23/222857
 
