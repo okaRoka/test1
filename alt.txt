@@ -44,9 +44,6 @@ firebase init
 
 3/database.rules.jsonの中身をtrueにする
 
-3/サイトを見ろ
-http://yucatio.hatenablog.com/entry/2018/09/23/222857
-
 ・git page利用
 1/yarn buid
 
